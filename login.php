@@ -6,13 +6,21 @@
 	<body>
 
 		<h1>Log into the system</h1>
-		<form>
-		<input type="email">
+		<form method="POST">
+		<input name="loginEmail" type="email">
 		<br><br>
-		<input type="password">
+		<input name="loginPassword" type="password">
 		<br><br>
 		<input type="submit">
 		</form>
 
+		<h1>Create a user</h1>
+		<form method="POST">
+		<input name="signupEmail" type="email">
+		<br><br>
+		<input name="signupPassword" type="password">
+		<br><br>
+		<input type="submit">
+		</form>
 	</body>
 </html> 
