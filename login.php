@@ -7,10 +7,12 @@
 
 		<h1>Log into the system</h1>
 		<form method="POST">
-		<label>E-mail address</label>
+		<label>E-mail address</label>	
+		<br>
 		<input name="loginEmail" type="email">
 		<br><br>
 		<label>Password</label>
+		<br>
 		<input name="loginPassword" type="password">
 		<br><br>
 		<input type="submit" value="Log in">
@@ -19,9 +21,11 @@
 		<h1>Create a user</h1>
 		<form method="POST">
 		<label>E-mail address</label>
+		<br>
 		<input name="signupEmail" type="email">
 		<br><br>
-		<label>E-mail address</label>
+		<label>Password</label>
+		<br>
 		<input name="signupPassword" type="password">
 		<br><br>
 		<input type="submit" value="Create user">
