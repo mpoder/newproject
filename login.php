@@ -1,10 +1,11 @@
 <?php
 	//var_dump($_POST);
 	//does stuff exist?
+	$signupEmailError = "";
 	if (isset ($_POST["signupEmail"] ) ) {
 		//somebody PRESSED THE BUTTON
 		if (empty($_POST["signupEmail"])){
-			echo "Email was not entered.";		
+			$signupEmailError = "Please enter your e-mail";		
 		}
 	}
 
@@ -34,7 +35,7 @@
 		<form method="POST">
 		<label>E-mail address</label>
 		<br>
-		<input name="signupEmail" type="email">
+		<input name="signupEmail" type="email"><?php echo $signupEmailError; ?>
 		<br><br>
 		<label>Password</label>
 		<br>
