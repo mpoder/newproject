@@ -1,6 +1,12 @@
 <?php
-	var_dump($_POST);
-
+	//var_dump($_POST);
+	//does stuff exist?
+	if (isset ($_POST["signupEmail"] ) ) {
+		//somebody PRESSED THE BUTTON
+		if (empty($_POST["signupEmail"])){
+			echo "Email was not entered.";		
+		}
+	}
 
 ?>
 
