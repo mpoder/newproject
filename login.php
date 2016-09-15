@@ -11,7 +11,7 @@
 		<br><br>
 		<input name="loginPassword" type="password">
 		<br><br>
-		<input type="submit">
+		<input type="submit" value="Log in">
 		</form>
 
 		<h1>Create a user</h1>
@@ -20,7 +20,7 @@
 		<br><br>
 		<input name="signupPassword" type="password">
 		<br><br>
-		<input type="submit">
+		<input type="submit" value="Create user">
 		</form>
 	</body>
 </html> 
